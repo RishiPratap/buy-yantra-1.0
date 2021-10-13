@@ -75,11 +75,14 @@
         <label for="name"><b>category</b></label>
         <select name="category">
             <option value="">--SELECT CATEGORY--</option>
-            <option value="grocerry">Grocerry</option>
-            <option value="genral">Genral</option>
+            <option value="grocery">Grocery</option>
             <option value="medicine">Medicine</option>
-            <option value="goods">Goods</option>
+            <option value="bakery">Bakery</option>
+            <option value="electronics">Electronics</option>
+            <option value="food">Fast Food</option>
+            <option value="pet">Pet shop</option>
             <option value="sports">Sports</option>
+            <option value="general">General</option>
         </select>
         <br>
         <br>
