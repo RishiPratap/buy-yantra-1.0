@@ -73,7 +73,14 @@
         <br>
         <br>
         <label for="name"><b>category</b></label>
-        <input type="text" class="lable" placeholder="Enter name" name="category">
+        <select name="category">
+            <option value="">--SELECT CATEGORY--</option>
+            <option value="grocerry">Grocerry</option>
+            <option value="genral">Genral</option>
+            <option value="medicine">Medicine</option>
+            <option value="goods">Goods</option>
+            <option value="sports">Sports</option>
+        </select>
         <br>
         <br>
         <label for="image"><b>Upload Image  </b></label>
