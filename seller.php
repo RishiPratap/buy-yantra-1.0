@@ -10,9 +10,11 @@
       $userlati = $_POST['lati'];
       $userlongi = $_POST['longi'];
       $storecategory = $_POST['category'];
+      $userpho = $_POST['phone'];
+      $useremail = $_POST['email'];
       $image = $_FILES['image']['name'];
 
-      $sql = "INSERT INTO genral (username,store_name,latitude,longitude,category,userimage) VALUES ('$username','$userstore','$userlati','$userlongi','$storecategory','$image')";
+      $sql = "INSERT INTO genral (username,store_name,latitude,longitude,category,user_phone,user_email,userimage) VALUES ('$username','$userstore','$userlati','$userlongi','$storecategory','$userpho','$useremail','$image')";
       mysqli_query($db,$sql); //store data into db
       if(move_uploaded_file($_FILES['image']['tmp_name'],$target)){
           $msg = "DATA UPLOADED SUCCESFULLY";
@@ -99,6 +101,14 @@ background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
             <option value="sports">Sports</option>
             <option value="general">General</option>
         </select>
+        <br>
+        <br>
+        <label for="name"><b>Phone Number</b></label>
+        <input type="text" class="lable" placeholder="Enter name" name="phone" required>
+        <br>
+        <br>
+        <label for="name"><b>Email Address</b></label>
+        <input type="text" class="lable" placeholder="Enter name" name="email" required>
         <br>
         <br>
         <label for="image"><b>Upload Image  </b></label>
