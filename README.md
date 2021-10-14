@@ -1,8 +1,4 @@
-# Filora A web-based file sharing app <img src=https://w7.pngwing.com/pngs/621/196/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png width=130 align='right'>
-![](https://img.shields.io/github/forks/MLSA-SRM/file-sharing-app?color=green&style=for-the-badge)
-![](https://img.shields.io/github/stars/MLSA-SRM/file-sharing-app?color=blueviolet&style=for-the-badge)
-![](https://img.shields.io/github/license/MLSA-SRM/file-sharing-app?color=blue&style=for-the-badge)
-![](https://img.shields.io/badge/version-1.0-pink.svg?style=for-the-badge)
+# BUY-YANTRA <img src=https://w7.pngwing.com/pngs/621/196/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png width=130 align='right'>
 
 `Filora is a web-based file sharing app created under MLSA-SRM.` 
 ## 🟠Built With:
