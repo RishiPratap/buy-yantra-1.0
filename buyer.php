@@ -33,7 +33,8 @@ background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
         </style>
     </head>
     <body>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    <center><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for category.." title="Type in a name"></center>
+        <h2>List of Shops Near By</h2>
     <?php 
    $db = mysqli_connect("localhost","root","","datastore");
    $sql = "SELECT * FROM genral ORDER BY id DESC";
