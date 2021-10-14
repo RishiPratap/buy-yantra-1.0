@@ -1,13 +1,15 @@
-# BUY-YANTRA <img src=https://w7.pngwing.com/pngs/17/58/png-transparent-web-development-responsive-web-design-e-commerce-business-ecommerce-blue-angle-web-design.png width=130 align='right'>
+# BUY-YANTRA <img src=https://w7.pngwing.com/pngs/621/196/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png width=130 align='right'>
 
-`Filora is a web-based file sharing app created under MLSA-SRM.` 
+`Buy-Yantra is a web-based app useful for local vendors to put forward their shop location and various other details`
+<br>
+`Created for one-day Hackathon conducted by SRM KZILLA'
 ## 🟠Built With:
 | Software/ Language | Version |
 |----------|---------|
-| JavaScript | ES6 |
-| PEER.JS | 1.3.2 |
-| Google Chrome Browser | 87.0.4280.141 |
-| Visual Studio Code | 1.52 |
+| HTML | 5 |
+| CSS | 3 |
+| Javascript | ES6 |
+| Visual Studio Code | 1.61 |
 ## 🔴Support:
 | Software | Tested with |
 |----------|-------------|
@@ -16,101 +18,21 @@
 | Mozilla Firefox Browser | 84.0.2 |
 
 ## 🔶🔶Introduction:
-Filora is web-based file sharing app. It is built over `PEER.JS`.This app is also available as `PWA`.
+`Buy-Yantra is a web-based app useful for local vendors to put forward their shop location and various other details`.
 
-![](https://github.com/RishiPratap/file-sharing-app/blob/main/public/capture%20(1).jpeg)
+* Click on the `Seller Button` to go to the seller section or `Buyer` to go the buyer section".
 
-* Click on the `Send` to send the file or `Recieve` to recieve the file".
+![](https://github.com/RishiPratap/buy-yantra-1.0/blob/main/demo.png)
 
-![](https://github.com/RishiPratap/file-sharing-app/blob/main/public/capture%20(2).jpeg)
-
-* To `Send` file click on Send button.
-* Enter OTP recieved from reciever, if you want to send the file to multiple people click on Add button to add multiple otp and then click on send button.
-
-![](https://github.com/RishiPratap/file-sharing-app/blob/main/public/capture%20(3).jpeg)
-
-* If you want to send the file using `QR CODE OR SCANNER` scan the the QR code of reciever and then select file to send.
-
-![](https://github.com/RishiPratap/file-sharing-app/blob/main/public/capture%20(4).jpeg)
-
-* This is where you recieve the `OTP` and `OR CODE` if connection error occur click on refresh. 
 ## 🌈Installing (from source code):
 
 * Clone this repository to your local machine.
 ```
-git clone https://github.com/MLSA-SRM/file-sharing-app.git
+git clone https://github.com/RishiPratap/buy-yantra-1.0
 ```
 ## 📢Run project on local server
 
 First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost/buy-yantra-1.0](http://localhost/buy-yantra-1.0) with your browser to see the result.
 
-You can start editing the page by modifying `components/send/send.js` or `components/recieve/recieve.js`. The page auto-updates as you edit the file.
-
-
- ## ✨Contributors
-
-<table>
-<tr align="center">
-
-
-
-
-<td>
-
-Atul Singh
-
-<p align="center">
-<img src = "https://avatars.githubusercontent.com/u/64461846?v=4"  height="120" alt="Atul Singh">
-</p>
-<p align="center">
-<a href = "https://github.com/SirAtul1204"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-</p>
-</td>
-
-<td>
-
-Kushagra Gupta
-
-<p align="center">
-<img src = "https://avatars.githubusercontent.com/u/60519359?v=4"  height="120" alt="Kushagra Gupta">
-</p>
-<p align="center">
-<a href = "https://github.com/KG-1510"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-<a href = "https://www.linkedin.com/in/kg1510/">
-<img src = "http://www.iconninja.com/files/863/607/751/network-linkedin-social-connection-circular-circle-media-icon.svg" width="36" height="36"/>
-</a>
-</p>
-</td>
-  
-  <td>
-
-Raghav Khotaria
-
-<p align="center">
-<img src = "https://avatars.githubusercontent.com/u/63222090?v=4"  height="120" alt="Raghav Khotaria">
-</p>
-<p align="center">
-<a href = "https://github.com/raghav13901"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-</p>
-</td>
-
-<td>
-
-Rishi Pratap
-
-<p align="center">
-<img src = "https://avatars.githubusercontent.com/u/72687585?v=4"  height="120" alt="Rishi Pratap">
-</p>
-<p align="center">
-<a href = "https://github.com/RishiPratap"><img src = "http://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="36" height = "36"/></a>
-</p>
-</td>
-  </tr>
-  </table>
