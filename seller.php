@@ -44,19 +44,40 @@
             border-radius:10px;
             border:solid black 1px;
         }
-        .button{
+        .button1,.button{
             padding:5px;
             font-size:15px;
             border-radius:5px;
+            font-family: aktiv-grotesk-extended, sans-serif;
+            font-weight: 700;
+            border: 2px solid #000;
+            border-radius: 3rem;
+            overflow: hidden;
+            color: #000;
         }
-        .lable{
-            padding:5px;
-            border-radius:5px;
-            border-top:0px;
-            border-right:0px;
-            border-left:0px;
-            outline:none;
+        .button1:hover{
+            color:#00A0C6; 
+            text-decoration:none; 
+            cursor:pointer;  
         }
+        a {
+        color: #000;
+        text-decoration: none;
+        }
+
+    a:hover {
+        color:#00A0C6; 
+        text-decoration:none; 
+        cursor:pointer;  
+    }
+    .lable{
+        padding:5px;
+        border-radius:5px;
+        border-top:0px;
+        border-right:0px;
+        border-left:0px;
+        outline:none;
+    }
     </style>
     <body>
         <form action="seller.php" method="post" class="data" enctype="multipart/form-data">
@@ -93,7 +114,7 @@
         <input type="file" class="form-control" name="image" onchange="displayImage(this)"  id="image" accept=".jpg, .jpeg, .png" required/> 
         <br>
        <br>
-       <input type="submit" value="upload" name="upload" class="button">
+       <input type="submit" value="upload" name="upload" class="button1">
        <br>
        <button class="button"><a href="index.php">return</a></button>
         </form>
