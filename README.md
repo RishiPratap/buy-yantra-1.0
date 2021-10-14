@@ -20,8 +20,6 @@
 ## 🔶🔶Introduction:
 `Buy-Yantra is a web-based app useful for local vendors to put forward their shop location and various other details`.
 
-![](https://github.com/RishiPratap/file-sharing-app/blob/main/public/capture%20(1).jpeg)
-
 * Click on the `Seller Button` to go to the seller section or `Buyer` to go the buyer section".
 
 ![](https://github.com/RishiPratap/buy-yantra-1.0/blob/main/demo.png)
