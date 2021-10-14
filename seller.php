@@ -33,6 +33,15 @@
     <style>
         body{
             padding:10px;
+            background:
+  radial-gradient(circle, transparent 20%, slategray 20%,
+    slategray 80%, transparent 80%, transparent),
+  radial-gradient(circle, transparent 20%, slategray 20%,
+    slategray 80%, transparent 80%, transparent) 50px 50px,
+  linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px,
+  linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+background-color: slategray;
+background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
         }
         .data{
             display: flex;
@@ -65,11 +74,11 @@
     <body>
         <form action="seller.php" method="post" class="data" enctype="multipart/form-data">
         <label for="name"><b>User Name</b></label>
-        <input type="text" class="lable" placeholder="Enter name" name="name">
+        <input type="text" class="lable" placeholder="Enter name" name="name" required>
         <br>
         <br>
         <label for="name"><b>Store Name</b></label>
-        <input type="text" class="lable" placeholder="Enter name" name="store">
+        <input type="text" class="lable" placeholder="Enter name" name="store" required>
         <br>
         <br>
         <label for="name"><b>Location</b></label>
@@ -79,7 +88,7 @@
         <br>
         <br>
         <label for="name"><b>category</b></label>
-        <select name="category">
+        <select name="category" required>
             <option value="">--SELECT CATEGORY--</option>
             <option value="grocery">Grocery</option>
             <option value="medicine">Medicine</option>
