@@ -58,10 +58,12 @@ $row = mysqli_fetch_array($result);
 
 }
 ?>
- <h1><?php echo $row['username']; ?></h1>
+        <center><h1><?php echo $row['store_name']; ?></h1></center>
  <?php 
     echo"<div class='post'>";
-    echo "name: " .$row['username']."";
+    echo "Owner: " .$row['username']."<br>";
+    echo "Phone Number: " .$row['user_phone']."<br>";
+    echo "Email: " .$row['user_email']."";
     echo"<img class='size' src='images/".$row['userimage']."'>";
     echo"</div>";
     ?>
