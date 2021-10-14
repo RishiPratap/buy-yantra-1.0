@@ -1,4 +1,4 @@
-# BUY-YANTRA <img src=https://w7.pngwing.com/pngs/621/196/png-transparent-e-commerce-logo-logo-e-commerce-electronic-business-ecommerce-angle-text-service.png width=130 align='right'>
+# BUY-YANTRA <img src=https://w7.pngwing.com/pngs/17/58/png-transparent-web-development-responsive-web-design-e-commerce-business-ecommerce-blue-angle-web-design.png width=130 align='right'>
 
 `Filora is a web-based file sharing app created under MLSA-SRM.` 
 ## 🟠Built With:
