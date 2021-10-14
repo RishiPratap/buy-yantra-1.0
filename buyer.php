@@ -12,8 +12,8 @@
             margin: 0 auto;
             width:250px;
            }
-           .post:hover{
-            box-shadow: 10px 10px 5px #aaaaaa;
+           div:hover{
+             border:2px solid;
            }
            .size{
                width:250px;
@@ -22,22 +22,49 @@
         </style>
     </head>
     <body>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
     <?php 
    $db = mysqli_connect("localhost","root","","datastore");
    $sql = "SELECT * FROM genral ORDER BY id DESC";
    $result = mysqli_query($db,$sql);
-  while($row = mysqli_fetch_array($result)){  
-    echo"<div class='post'>";
-    echo "name: " .$row['username']."";
+   echo "<table id='myTable' class='post'>";
+  while($row = mysqli_fetch_array($result)){    
+    echo "<tr>"; 
+    echo "<td>"; 
+    echo "<br>";
+    echo "<br>";
+    echo"<div>";
+    echo "name: " .$row['username']."<br>";
+    echo "category: " .$row['category']."<br>";
     echo"<a href='view.php?id=".$row['id']."'>";
     echo"<img class='size' src='images/".$row['userimage']."'>";
     echo"</a>";
     echo"</div>";
+    echo "</td>";
+    echo "</tr>";
 }
+echo "</table>";
 mysqli_close($db);
 ?>
     </body>
     <script>
-
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
     </script>
 </html>
