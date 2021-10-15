@@ -22,7 +22,7 @@
 
 * Click on the `Seller Button` to go to the seller section or `Buyer` to go the buyer section".
 
-![](https://im6.ezgif.com/tmp/ezgif-6-3d9d090f265b.gif)
+![Alt Text](https://im6.ezgif.com/tmp/ezgif-6-3d9d090f265b.gif)
 
 ## 🌈Installing (from source code):
 
