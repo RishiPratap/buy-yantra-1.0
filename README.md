@@ -22,7 +22,7 @@
 
 * Click on the `Seller Button` to go to the seller section or `Buyer` to go the buyer section".
 
-![Alt Text](https://im6.ezgif.com/tmp/ezgif-6-3d9d090f265b.gif)
+![Alt Text](https://github.com/RishiPratap/buy-yantra-1.0/blob/main/ezgif.com-gif-maker.gif)
 
 ## 🌈Installing (from source code):
 
